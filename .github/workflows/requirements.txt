@@ -1,0 +1,6 @@
+requests
+requests_oauthlib
+sentence_transformers
+faiss-cpu
+anthropic
+numpy
