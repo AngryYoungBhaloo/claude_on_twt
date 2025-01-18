@@ -31,7 +31,7 @@ class TwitterBot:
             print(f"\n[Bot] Starting cycle at {datetime.now(timezone.utc).isoformat()}")
             self.actions_taken = 0
 
-            # 1) Always fetch the latest 3 mentions
+            # 1) Always fetch the latest 5 mentions
             new_mentions = self.twitter.check_mentions(max_results=5)
             if new_mentions:
                 print(f"[Bot] Fetched {len(new_mentions)} new mention(s). Storing them.")
