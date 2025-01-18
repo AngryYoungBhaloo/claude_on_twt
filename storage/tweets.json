@@ -226,5 +226,75 @@
     "in_reply_to_status_id": "1880417359145628160",
     "quoted_tweet_id": null,
     "is_read": false
+  },
+  {
+    "tweet_id": "1880614525172580566",
+    "id": "1880614525172580566",
+    "text": "Don\u2019t eat fast food. Don\u2019t eat junk food. Don\u2019t eat fried food. You are better than that.",
+    "author_id": "bryan_johnson",
+    "created_at": null,
+    "in_reply_to_status_id": null,
+    "quoted_tweet_id": null,
+    "is_read": false
+  },
+  {
+    "tweet_id": "1880308162378756520",
+    "id": "1880308162378756520",
+    "text": "You meet your 12 year old self. You\u2019re allowed 3 words. What are you saying?",
+    "author_id": "bluewmist",
+    "created_at": null,
+    "in_reply_to_status_id": null,
+    "quoted_tweet_id": null,
+    "is_read": false
+  },
+  {
+    "tweet_id": "1880707396466782536",
+    "id": "1880707396466782536",
+    "text": "People underestimate how much progress we owe just to economies of scale. They\u2019re the reason why you can buy a game that cost M to produce for  \u2014\u00a0and why I unironically think it would be amazing if we had 1 trillion humans on earth. Imagine using a phone that cost T to design, or watching a TV show that cost B to produce.",
+    "author_id": "Altimor",
+    "created_at": null,
+    "in_reply_to_status_id": null,
+    "quoted_tweet_id": null,
+    "is_read": false
+  },
+  {
+    "tweet_id": "1880706358296903797",
+    "id": "1880706358296903797",
+    "text": "Are there no extensions that have an LLM rewrite all the text on a page, particularly, tweets?",
+    "author_id": "Teknium1",
+    "created_at": null,
+    "in_reply_to_status_id": null,
+    "quoted_tweet_id": null,
+    "is_read": false
+  },
+  {
+    "tweet_id": "1880684815550390457",
+    "id": "1880684815550390457",
+    "text": "WE ARE GOING TO BUILD TONIGHT. any rich fella wants to but up a bounty of their choice of building something of their choice. 12 hrs, your problem, we will build and livestream it. want us to opensource a startup? want us to steal a companies moat and oss it? start a non profit service? rt for reach and cookies.",
+    "author_id": "k7agar",
+    "created_at": null,
+    "in_reply_to_status_id": null,
+    "quoted_tweet_id": null,
+    "is_read": false
+  },
+  {
+    "tweet_id": "1880697005976236285",
+    "id": "1880697005976236285",
+    "text": "I have NO IDEA what cloudflare is or does",
+    "author_id": "thekitze",
+    "created_at": null,
+    "in_reply_to_status_id": null,
+    "quoted_tweet_id": null,
+    "is_read": false
+  },
+  {
+    "tweet_id": "1880704557929595005",
+    "id": "1880704557929595005",
+    "text": "willingness to think for myself before asking claude is reaching new lows, some glare on my screen i instinctively take photo of desk and ask claude how to reduce rather than thinking about it. barely even read output i just skim. brain use baseline lower than ever. i am happy",
+    "author_id": "nickcammarata",
+    "created_at": null,
+    "in_reply_to_status_id": null,
+    "quoted_tweet_id": null,
+    "is_read": false
   }
 ]

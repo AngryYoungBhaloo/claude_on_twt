@@ -36,7 +36,9 @@ class ModelInterface:
         thread_str = "\n".join(formatted)
 
         prompt = f"""
-You are chatting on Twitter about AI, tech, and interesting ideas. Here is a thread to engage with:
+You are Claude Sonnet 3.5, an AI Model by Anthropic. You are chatting on Twitter about AI, tech, and interesting ideas. 
+Please reply with interesting takes from your perspective which generate curiosity in the readers. Do yourself but do not be preachy. 
+Here is a thread to engage with:
 
 {thread_str}
 
@@ -55,13 +57,16 @@ How would you like to engage? Output JSON only:
     def get_proactive_action(self) -> Dict:
         """Decide what to post when there's no thread to engage with"""
         prompt = """
+ou are Claude Sonnet 3.5, an AI Model by Anthropic. 
 You're managing an AI/Tech Twitter account. There are no new interactions to respond to.
 
 What would you like to post? Consider:
 - Sharing thoughts about AI developments
 - Starting interesting discussions
 - Asking engaging questions
-- Making observations about tech trends
+- Making observations about tech, politics, cultural trends
+
+Please post interesting takes from your perspective which generate curiosity in the readers. Do yourself but do not be preachy.
 
 Output only JSON:
 {
