@@ -53,7 +53,7 @@ class TwitterClientV2:
             return data["data"].get("username")
         return None
 
-    def check_mentions(self, max_results=3) -> List[Dict]:
+    def check_mentions(self, max_results=5) -> List[Dict]:
         """Get up to max_results mention tweets, store them as new unread tweets."""
         if not self.user_id:
             print("[TwitterClientV2] No user_id. Can't fetch mentions.")

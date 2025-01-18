@@ -32,7 +32,7 @@ class TwitterBot:
             self.actions_taken = 0
 
             # 1) Always fetch the latest 3 mentions
-            new_mentions = self.twitter.check_mentions(max_results=3)
+            new_mentions = self.twitter.check_mentions(max_results=5)
             if new_mentions:
                 print(f"[Bot] Fetched {len(new_mentions)} new mention(s). Storing them.")
                 for mention in new_mentions:
