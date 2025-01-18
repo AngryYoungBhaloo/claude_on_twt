@@ -1,7 +1,5 @@
-# main.py
-import schedule
-import time
 from datetime import datetime, timezone
+import time  # Added back for sleep() function
 
 from twitter_client import TwitterClientV2
 from rag import TweetStore
@@ -59,10 +57,16 @@ class TwitterBot:
                     result = self.twitter.reply_tweet(tweet_id, text)
                     if result:
                         self.store.store_tweet(result)
+                        print(f"[Bot] Successfully replied to {tweet_id}")
+                    else:
+                        print(f"[Bot] Failed to reply to tweet {tweet_id}")
                 elif action == "quote" and tweet_id:
                     result = self.twitter.quote_tweet(tweet_id, text)
                     if result:
                         self.store.store_tweet(result)
+                        print(f"[Bot] Successfully quoted tweet {tweet_id}")
+                    else:
+                        print(f"[Bot] Failed to quote tweet {tweet_id}")
 
                 self.actions_taken += 1
 
@@ -75,22 +79,11 @@ class TwitterBot:
 
         except Exception as e:
             print(f"[Bot] Error in bot cycle: {str(e)}")
-
-    def start(self):
-        """Start the bot with immediate and scheduled runs"""
-        print("[Bot] Starting up. Running first cycle...")
-        self.run_cycle()
-
-        schedule.every(15).minutes.do(self.run_cycle)
-        print("[Bot] Scheduled future cycles every 15 minutes")
-
-        while True:
-            schedule.run_pending()
-            time.sleep(60)
+            raise  # Re-raise the exception for GitHub Actions to catch failures
 
 def main():
     bot = TwitterBot(max_actions_per_cycle=3)
-    bot.start()
+    bot.run_cycle()  # Just run once and exit
 
 if __name__ == "__main__":
     main()

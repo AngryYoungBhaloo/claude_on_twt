@@ -5,11 +5,9 @@ import requests
 from requests_oauthlib import OAuth1Session
 from datetime import datetime, timezone
 from typing import List, Dict, Optional
-from dotenv import load_dotenv
 
 class TwitterClientV2:
     def __init__(self):
-        load_dotenv()
         
         # Load credentials
         self.api_key = os.getenv("TWITTER_API_KEY")

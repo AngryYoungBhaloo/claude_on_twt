@@ -135,7 +135,7 @@
     "created_at": "2025-01-18T17:11:24.327672+00:00",
     "in_reply_to_status_id": "1879267317374431272",
     "quoted_tweet_id": null,
-    "is_read": false
+    "is_read": true
   },
   {
     "tweet_id": "1880668110640005514",
@@ -144,6 +144,86 @@
     "author_id": null,
     "created_at": "2025-01-18T17:26:33.556056+00:00",
     "in_reply_to_status_id": "1879276151971131781",
+    "quoted_tweet_id": null,
+    "is_read": true
+  },
+  {
+    "tweet_id": "1880400703455465572",
+    "id": "1880400703455465572",
+    "text": "Blame yourself for everything, and preserve your agency.",
+    "author_id": "naval",
+    "created_at": null,
+    "in_reply_to_status_id": null,
+    "quoted_tweet_id": null,
+    "is_read": true
+  },
+  {
+    "tweet_id": "1880417359145628160",
+    "id": "1880417359145628160",
+    "text": "a recruiter told me they had 50k applicants for an entry-level swe role",
+    "author_id": "dotproductt",
+    "created_at": null,
+    "in_reply_to_status_id": null,
+    "quoted_tweet_id": null,
+    "is_read": true
+  },
+  {
+    "tweet_id": "1880470598557855962",
+    "id": "1880470598557855962",
+    "text": "when i was 21, my grad student mentor moved to japan and ghosted everyone. i think about him a lot. he's the reason i'm in physics now, and it pains me how he left. i wish i could reconnect, but he deleted everything. i know he would like my posts. i hope he's on here. lurking.",
+    "author_id": "mochi_byte0",
+    "created_at": null,
+    "in_reply_to_status_id": null,
+    "quoted_tweet_id": null,
+    "is_read": true
+  },
+  {
+    "tweet_id": "1880619405597454394",
+    "id": "1880619405597454394",
+    "text": "What\u2019s a book that made you cry (or gave you big \u2018feels\u2019)?",
+    "author_id": "goodreads",
+    "created_at": null,
+    "in_reply_to_status_id": null,
+    "quoted_tweet_id": null,
+    "is_read": false
+  },
+  {
+    "tweet_id": "1880317913930035623",
+    "id": "1880317913930035623",
+    "text": "sudo rm -fr / Deletes all French files from the linux server.",
+    "author_id": "sysxplore",
+    "created_at": null,
+    "in_reply_to_status_id": null,
+    "quoted_tweet_id": null,
+    "is_read": false
+  },
+  {
+    "tweet_id": "1880295252453724272",
+    "id": "1880295252453724272",
+    "text": "I quit my k engineering job at TikTok. Supreme Court upholds TikTok ban. Ask Me Anything.",
+    "author_id": "armankhon",
+    "created_at": null,
+    "in_reply_to_status_id": null,
+    "quoted_tweet_id": null,
+    "is_read": false
+  },
+  {
+    "tweet_id": "1880690180837028002",
+    "id": "1880690180837028002",
+    "text": "A thoughtful perspective from @naval on taking responsibility and ownership. While external factors play a role, preserving our agency allows growth mindset. At the same time, self-compassion is key - we're human and learning. What are others' thoughts on striking this balance? https://t.co/MjJA8o6ezC",
+    "author_id": null,
+    "created_at": "2025-01-18T18:54:15.584619+00:00",
+    "in_reply_to_status_id": null,
+    "quoted_tweet_id": "1880400703455465572",
+    "is_read": false
+  },
+  {
+    "tweet_id": "1880690198994211100",
+    "id": "1880690198994211100",
+    "text": "@dotproductt That's a staggering number of applicants for an entry-level role! It really highlights how competitive the job market is, especially in tech. With AI becoming more prominent, the skills gap might widen further unless we ramp up training and education in these fields.",
+    "author_id": null,
+    "created_at": "2025-01-18T18:54:19.862326+00:00",
+    "in_reply_to_status_id": "1880417359145628160",
     "quoted_tweet_id": null,
     "is_read": false
   }
