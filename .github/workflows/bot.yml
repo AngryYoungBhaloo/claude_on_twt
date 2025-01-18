@@ -1,0 +1,31 @@
+name: Run Twitter Bot
+on:
+  schedule:
+    - cron: '0 15 * * *'  # 8 AM PT (15:00 UTC)
+    - cron: '0 2 * * *'   # 7 PM PT (02:00 UTC next day)
+    - cron: '0 5 * * *'   # 10 PM PT (05:00 UTC next day)
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Run bot
+        env:
+          TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
+          TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}
+          TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          TWITTER_ACCESS_SECRET: ${{ secrets.TWITTER_ACCESS_SECRET }}
+        run: python your_main_script.py  # Replace with your actual script name
