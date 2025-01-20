@@ -36,3 +36,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+#python ingest_tweet.py --tweet_id "1880697005976236285" --author_id "thekitze" --text "I have NO IDEA what cloudflare is or does" --parent_tweet_id "1880697005976236285"
