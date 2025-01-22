@@ -1,6 +1,6 @@
-name: Run Twitter Bot
-on:
-  schedule:
+#name: Run Twitter Bot
+#on:
+#  schedule:
     - cron: '0 15 * * *'  # 8 AM PT (15:00 UTC)
     - cron: '0 2 * * *'   # 7 PM PT (02:00 UTC next day)
     - cron: '0 5 * * *'   # 10 PM PT (05:00 UTC next day)
@@ -30,4 +30,4 @@ jobs:
           TWITTER_ACCESS_SECRET: ${{ secrets.TWITTER_ACCESS_SECRET }}
           TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python main.py  # Replace with your actual script name
+        run: python main.py 
